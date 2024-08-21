@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <form action="response.html" method="get" target="_blank">
+    <h1>Student Registration</h1>
+    <div>
+        <h3>NOTE:-</h3>
+        <p>
+            Could you please take a moment to complete the entire student registration form? <br> Ensuring that all sections are filled out accurately will help us process your registration  <br> smoothly and efficiently.
+        </p>
+    </div>
+    <br>
+    <section>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required placeholder="Your Name">
+        </div>
+        <br>
+        <div>
+            <label for="email">E-Mail:</label>
+            <input type="email" name="email" id="email" required placeholder="abc@gmail.com">
+        </div>
+        <br>
+        <div>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" name="dob" id="dob" required>
+        </div>
+        <br>
+        <div>
+            <label for="mobile">Mobile Number:</label>
+            <select>
+                <option value="+91">+91</option>
+                <option value="+92">+92</option>
+                <option value="+93">+93</option>
+            </select>
+            <input type="number" name="mobile" id="mobile"  placeholder="1234567890">
+        </div>
+        <br>
+        <div>
+            <h3>Gender:</h3>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" >
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female">
+            <label for="others">others</label>
+            <input type="radio" name="gender" id="others">
+        </div>
+        <br>
+        <div>
+            <h3>Courses Intrested:</h3>
+            <label for="html">HTML</label>
+            <input type="checkbox" name="html" id="html" >
+            <label for="css">CSS</label>
+            <input type="checkbox" name="css" id="css" >
+            <label for="javascript">Javascript</label>
+            <input type="checkbox" name="javascript" id="javascript" >
+            <label for="python">python</label>
+            <input type="checkbox" name="Python" id="python" >
+        </div>
+        <br>
+        <div>
+            <label for="comments">Comments</label>
+            <textarea name="comments" id="comments">If you want share somthing about you ...</textarea>
+        </div>
+        <br>
+        <button type="submit">Register</button>
+    </section>
+</form>
+<br>
+<hr>
+<br>
+<section>
+    <h2>Registered Students:</h2>
+    <table border="1" cellpadding="3" cellspacing="1">
+        <thead>
+            <tr>
+                <th>Student ID</th>
+                <th>Full Name</th>
+                <th>Email</th>
+                <th>Date of Birth</th>
+                <th>Phone Number</th>
+                <th>Gender</th>
+                <th>Courses Intrested</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Arun</td>
+                <td>arun@gmail.com</td>
+                <td>1.1.2000</td>
+                <td>7894561230</td>
+                <td>Male</td>
+                <td>html,css</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Kumar</td>
+                <td>Kumar@gmail.com</td>
+                <td>2.1.2001</td>
+                <td>7894556981</td>
+                <td>Male</td>
+                <td>html,python</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>jaya</td>
+                <td>jaya@gmail.com</td>
+                <td>3.7.2003</td>
+                <td>7894556987</td>
+                <td>Female</td>
+                <td>html,css,python</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>gobi</td>
+                <td>gobi@gmail.com</td>
+                <td>3.10.2003</td>
+                <td>7894512345</td>
+                <td>Male</td>
+                <td>html,css,Javascript,python</td>
+            </tr>
+        </tbody>
+    </table>
+</section>  
+</body>
+</html>
